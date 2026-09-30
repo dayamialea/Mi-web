@@ -167,6 +167,6 @@ details p { margin: .8rem 0 0; color: var(--muted); }
 .method-end { margin-top: 2rem; font-family: 'Playfair Display', serif; font-size: 1.25rem; color: var(--plum); }
 .hero-card .photo-placeholder img { object-position: center top; }
 .small-photo { aspect-ratio: 3 / 4; }
-.small-photo img { object-position: center 25%; }
+.small-photo img { object-position: center top; }
 @media (max-width: 900px) { .cards-7 { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .cards-7 { grid-template-columns: 1fr; } }
